@@ -11,7 +11,7 @@ const Navbar = () => {
         {/* <a className="navbar-brand text-secondary" href="/">
           <img src={LogoImage} alt="KD Real Estate" className="logo-img" />
         </a> */}
-        <a class="font-poppins sm:text-2xl text-xl font-bold text-black dark:text-white ml-4" href="/">Kambale.</a>
+        <a class="font-poppins sm:text-2xl text-xl font-bold text-black dark:text-white ml-4" href="/">kambale.</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

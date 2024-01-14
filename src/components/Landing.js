@@ -6,15 +6,15 @@ import maghanga from "../assets/Maghanga.png";
 function Landing() {
   return (
     <div className="container text-center">
-      <div className="row align-items-center">
+      <div className="row align-items-start ">
      <div className="col">
-      Software Engineer
+      SOFTWARE ENGINEER
      </div>
      <div className="col">
       I.T
      </div>
     <div className="col">
-      Tech Enthusiast
+      TECH ENTHUSIAST
     </div>
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
   <div className="carousel-indicators">
@@ -24,21 +24,24 @@ function Landing() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={kambale} className="d-block w-100" alt="Kambale"></img>
+      <img src={kambale} className="d-block w-100" alt="Kambale"               width={500}
+              height={500}></img>
       <div className="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={thomas} className="d-block w-100" alt="Thomas"></img>
+      <img src={thomas} className="d-block w-100" alt="Thomas"               width={500}
+              height={500}></img>
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={maghanga} className="d-block w-100" alt="Maghanga"></img>
+      <img src={maghanga} className="d-block w-100" alt="Maghanga"              width={500}
+              height={500}></img>
       <div className="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>

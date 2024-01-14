@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+
+.font-poppins {
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  font-size: 2rem; /* Adjust the font size as needed */
+  /* Add any other styles you need for the font */
+}
+
+.nav-link{
+  font-family: 'Rubik';
+  font-weight: bold;
+
+}
+.col{
+  font-family: 'Poppins, sans-serif';
+  /* font-weight: bold; */
+  font-size: 48px;
+  align-items: flex-start;
+}
+#about{
+  font-family: 'Rubik';
+  /* font-weight: bold; */
+}
+
+
+.carousel-item {
+  object-fit: cover;
+  /* width: 100%;
+  height: calc(100% * var(--aspect-ratio)); */
+ }
+
+ #contacts{
+  font-family: 'Rubik';
+  /* font-weight: bold; */
+}
