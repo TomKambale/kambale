@@ -29,39 +29,73 @@ function About() {
         </div>
 
         <div>
-          Proficient in :
-          <p />
-          <FontAwesomeIcon icon={faHtml5} style={{ color: "#000000" }} />{" "}
-          <span /> HTML
-          <p />
-          <FontAwesomeIcon icon={faCss3Alt} style={{ color: "#000000" }} />{" "}
-          <span /> CSS
-          <p />
-          <FontAwesomeIcon icon={faBootstrap} />
-          <span /> Bootstrap
-          <p />
-          <FontAwesomeIcon
-            icon={faJs}
-            style={{ color: "#000000" }}
-          /> <span /> Javascript
-          <p />
-          <FontAwesomeIcon icon={faReact} style={{ color: "#000000" }} />{" "}
-          <span /> React
-          <p />
-          <FontAwesomeIcon
-            icon={faRedhat}
-            flip="horizontal"
-            style={{ color: "#000000" }}
-          />
-          <span /> Ruby
-          <p />
-          <FontAwesomeIcon icon={faGlobe} style={{ color: "#000000" }} />
+          Skills
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <div className="frontend">
+                Frontend:
+                <p />
+                <FontAwesomeIcon
+                  icon={faHtml5}
+                  style={{ color: "#000000" }}
+                />{" "}
+                <span /> HTML
+                <p />
+                <FontAwesomeIcon
+                  icon={faCss3Alt}
+                  style={{ color: "#000000" }}
+                />{" "}
+                <span /> CSS
+                <p />
+                <FontAwesomeIcon icon={faBootstrap} />
+                <span /> Bootstrap
+                <p />
+                <FontAwesomeIcon
+                  icon={faJs}
+                  style={{ color: "#000000" }}
+                />{" "}
+                <span /> Javascript
+                <p />
+                <FontAwesomeIcon
+                  icon={faReact}
+                  style={{ color: "#000000" }}
+                />{" "}
+                <span /> React
+                <p />
+              </div>
+            </div>
+            <div class="col-4">
+              <div className="backend">
+                Backend:
+                <p />{" "}
+                <FontAwesomeIcon
+                  icon={faRedhat}
+                  flip="horizontal"
+                  style={{ color: "#000000" }}
+                />
+                <span /> Ruby
+                <p />
+                <FontAwesomeIcon icon={faGlobe} style={{ color: "#000000" }} />
+                <span />
+                Ruby on Rails
+                <p />
+              </div>
+            </div>
+            <div class="col-4">
+              <div className="database">
+                Database
+                <p />
+                <FontAwesomeIcon
+                  icon={faDatabase}
+                  style={{ color: "#000000" }}
+                />
+                <span />
+                SQL.
+              </div>
+            </div>
+          </div>
           <span />
-          Ruby on Rails
-          <p />
-          <FontAwesomeIcon icon={faDatabase} style={{ color: "#000000" }} />
-          <span />
-          SQL.
+          <div />
         </div>
       </div>
     </section>

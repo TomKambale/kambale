@@ -6,7 +6,7 @@ import '../App.css';
 const Navbar = () => {
   return (
     <section id="nav" className="nav-section" >
-    <nav className="navbar navbar-expand-lg navbar-light bg-gray-400 ">
+    <nav className="navbar navbar-expand-lg navbar-light bg-gray-400  ">
       <div className="container">
         {/* <a className="navbar-brand text-secondary" href="/">
           <img src={LogoImage} alt="KD Real Estate" className="logo-img" />
