@@ -1,7 +1,7 @@
 import React from "react";
-import kambale from "../assets/Kambale.png";
+import Coding from "../assets/Coding.jpg";
 import thomas from "../assets/Thomas.png";
-import maghanga from "../assets/Maghanga.png";
+import Relax from "../assets/Relax.jpg";
 
 function Landing() {
   return (
@@ -16,7 +16,7 @@ function Landing() {
             id="carouselExampleCaptions"
             className="carousel slide"
             data-bs-ride="carousel"
-            data-bs-interval="2000"
+            data-bs-interval="2500"
           >
             <div className="carousel-indicators">
               <button
@@ -43,17 +43,15 @@ function Landing() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src={kambale}
+                  src={Coding}
                   className="d-block w-100"
                   alt="Kambale"
                   width={500}
                   height={500}
                 ></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>
-                    Some representative placeholder content for the first slide.
-                  </p>
+                  <h5>Software development</h5>
+                  <p>Problem sloving using technology.</p>
                 </div>
               </div>
               <div className="carousel-item">
@@ -65,25 +63,26 @@ function Landing() {
                   height={500}
                 ></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
+                  <h5>Unwind</h5>
                   <p>
-                    Some representative placeholder content for the second
-                    slide.
+                    All work and no play makes Jack a dull boy. We all need a
+                    comfortable work-life balance.
                   </p>
                 </div>
               </div>
               <div className="carousel-item">
                 <img
-                  src={maghanga}
+                  src={Relax}
                   className="d-block w-100"
                   alt="Maghanga"
                   width={500}
                   height={500}
                 ></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
+                  <h5>Unwind</h5>
                   <p>
-                    Some representative placeholder content for the third slide.
+                    All work and no play makes Jack a dull boy. We all need a
+                    comfortable work-life balance.
                   </p>
                 </div>
               </div>
