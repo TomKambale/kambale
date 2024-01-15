@@ -29,7 +29,10 @@ function About() {
         </div>
 
         <div>
-          Skills
+        <a href="kambale/src/assets/THOMAS KAMBALE.pdf" download>
+  <button type="button" class="btn btn-secondary">Download CV</button>
+</a>
+
           <div class="row justify-content-center">
             <div class="col-4">
               <div className="frontend">
